@@ -4,7 +4,7 @@ Wektor::Wektor(){
 	x = 0;
 	y = 0;
 	z = 0;
-	number++;
+	++number;
 }
 
 Wektor::Wektor(float x, float y, float z): x(x), y(y), z(z) {

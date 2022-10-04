@@ -3,6 +3,7 @@
 class Wektor
 {
 	float x, y, z;
+	static unsigned int number;
 public:
 	Wektor();
 	Wektor(float x, float y, float z);
